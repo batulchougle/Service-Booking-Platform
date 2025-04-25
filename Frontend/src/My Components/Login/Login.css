@@ -1,0 +1,79 @@
+.part1,.part2{
+    width: 100%;
+    color: black;
+    min-height: 100vh;
+}
+.part1{
+    width: 50%;
+    float: left;
+    background: #fff;
+}
+.part2{
+    width: 50%;
+    float: right;
+    background: #96B2F0;
+}
+.head{
+    position: relative;
+    left: 190px;
+    top: 290px;
+    letter-spacing: 5px;
+    font-size: 150%;
+}
+.head1{
+    position: relative;
+    left: 170px;
+    top: 295px;
+    letter-spacing: 1px;
+}
+.blue{
+    color: blue;
+}
+.head12{
+    position: relative;
+    top: 180px;
+    left: 300px;
+    letter-spacing: 5px;
+    font-size: 150%;
+}
+.form-group1{
+    position: relative;
+    top: 200px;
+    left: 165px;
+}
+.form-group2{
+    position: relative;
+    top: 220px;
+    left: 165px;
+}
+input[type=text]{
+    border-radius: 20px;
+}
+.submit_btn{
+    position: relative;
+    top: 250px;
+    left: 165px;
+    background-color: #3329f9;
+    border-radius: 25px;
+    border-style: hidden;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+.forpass{
+    position: relative;
+    top: 280px;
+    left: 165px;
+}
+.disc{
+    position: relative;
+    top: 360px;
+    left: 290px;
+}
+.error-message {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+    display: block;
+  }

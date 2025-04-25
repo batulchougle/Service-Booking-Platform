@@ -1,0 +1,138 @@
+.plumber_img{
+    width: 900px;
+    padding-top: 150px;  
+    margin-left: 50px;  
+}
+.plumbinglines{
+    position: relative;
+    top: 100px;
+    padding-bottom: -900px;
+}
+.plumb_head1{
+    position: relative;
+    bottom: 650px;
+    padding-left: 900px;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+.plumb_head2{
+    font-size: 60px;
+}
+.plumb_head3{
+    position: relative;
+    bottom: 600px;
+    padding-left: 1000px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(76, 74, 74);
+}
+
+.startsat_plumb{
+    font-size: 270%;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 550px;
+    left: 950px;
+}
+.enq_now_plumb{
+    position: relative;
+    bottom: 480px;
+    left: 950px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+    transition: 0.3s;
+}
+.enq_now_plumb:hover {
+    background-color: #438BFF;
+    color: white;
+    box-shadow: 2px 2px rgb(171, 169, 169);
+}
+.book_now_plumb:hover{
+    background-color: #438BFF;
+    color: white;
+    box-shadow: 2px 2px rgb(171, 169, 169);
+}
+.feedbacks_plumb:hover{
+    background-color: #438BFF;
+    color: white;
+    box-shadow: 2px 2px rgb(171, 169, 169);
+}
+.book_now_plumb{
+    position: relative;
+    bottom: 480px;
+    left: 1000px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+    transition: 0.3s;
+}
+.feedbacks_plumb{
+    position: relative;
+    bottom: 480px;
+    left: 1050px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+    transition: 0.3s;
+}
+.plumbing1{
+    position: relative;
+    bottom: 0px;
+    left: 150px;
+    display: block;
+    height: 800px;
+}
+.plumblines{
+    position: relative;
+    top: 200px;
+}
+.plumbing2{
+    position: relative;
+    left: 400px;
+    bottom: 650px;
+    box-shadow: 2px 2px;
+}
+
+.plumb_head7{
+    position: relative;
+    bottom: 480px;
+    padding-left: 200px;
+    font-size: 35px;
+    color: grey;
+    letter-spacing: 3px;
+}
+.plumb_head8{
+    font-size: 60px;
+    color: black;
+}
+.plumb_head9{
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.plumb_head10{
+    position: relative;
+    top: 380px;
+    list-style: none;
+    font-size: 25px;
+    padding-left: 200px;
+}
+.plumb_head10::before{ 
+    content: "\00BB"; 
+} 
+

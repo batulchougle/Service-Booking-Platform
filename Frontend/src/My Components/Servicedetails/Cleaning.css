@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+body, html {
+    overflow-x: hidden;
+    width: 100%;
+}
+.hi{
+    position: relative;
+    padding-left: 850px;
+    padding-top: 140px;
+    font-size: 400%;
+    color: #0467A1;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.hi2{
+    padding-left: 900px;
+    padding-top: 5px;
+    font-size: 320%;
+    color: #0D006C;
+    letter-spacing: 1px;
+}
+.cle-bgimg{
+    width: 1000px;
+    margin-left: 60px;
+    position: relative;
+    bottom: 120px;
+    opacity: 70%;
+}
+.cle-info{
+    position: relative;
+    bottom: 640px;
+    left: 950px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.startsat{
+    position: relative;
+    bottom: 620px;
+    left: 1030px;
+    font-size: 280%;
+    letter-spacing: 2px;
+}
+.enq_now_btn{
+    position: relative;
+    bottom: 560px;
+    left: 1000px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+    transition: 0.3s;
+}
+.book_now_btn{
+    position: relative;
+    bottom: 560px;
+    left: 1020px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+    transition: 0.3s;
+}
+.feedbacks_btn{
+    position: relative;
+    bottom: 560px;
+    left: 1060px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+    transition: 0.3s;
+}
+.enq_now_btn:hover {
+    background-color: #438BFF;
+    color: white;
+    box-shadow: 2px 2px rgb(171, 169, 169);
+}
+.book_now_btn:hover{
+    background-color: #438BFF;
+    color: white;
+    box-shadow: 2px 2px rgb(171, 169, 169);
+}
+
+.hor_line{
+    position: relative;
+    bottom: 310px;
+    height: 2px;
+    border: hidden;
+    background-color: black;
+}
+.hor_line2{
+    position: relative;
+    bottom: 60px;
+    height: 2px;
+    border: hidden;
+    background-color: black;
+}
+.ca{
+    position: relative;
+    bottom: 230px;
+    left: 130px;
+}
+.cl{
+    position: relative;
+    bottom: 400px;
+    left: 580px;
+}
+.lo{
+    position: relative;
+    bottom: 605px;
+    left: 1000px;
+}
+.haveaque{
+    position: relative;
+    bottom: 310px;
+    left: 240px;
+    font-size: 20px;
+}
+.no{
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
+.time{
+    position: relative;
+    bottom: 487px;
+    left: 690px;
+    font-size: 20px;
+}
+.ti{
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
+.loc_add{
+    position: relative;
+    bottom: 715px;
+    left: 1120px;
+    font-size: 20px;
+}
+.ad1{
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
+.hs2{
+    position: relative;
+    bottom: 560px;
+    left: 490px;
+    font-size: 35px;
+    letter-spacing: 1px;
+}.hs3{
+    position: relative;
+    bottom: 500px;
+    left: 420px;
+    font-size: 50px;
+}
+.cle_container{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+}
+.cle_container2{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    position: relative;
+    bottom: 280px;
+    left: 100px;
+}
+.clebox{
+    width: 400px;
+    height: 550px;
+    border: 2px solid rgb(213, 211, 211);
+    border-radius: 20px;
+    background-color: rgb(225, 222, 222);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+ }
+ .clebox:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 4px 10px rgb(24, 23, 23);
+}  
+.window_cle{
+    width: 397px;
+    border-radius: 20px;
+    height: 300px;
+}
+.maid_cle{
+    width: 396px;
+    border-radius: 20px;
+}
+.cle_head1{
+    padding-left: 30px;
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+.cle_head2{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}

@@ -1,0 +1,89 @@
+.body{
+    font-family: serif;
+}
+/*.wrap3{
+    background-color: #96B2F0;
+    height: 100vh;
+    width: 100%;
+}*/
+.chead{
+    position: relative;
+    top: 50px;
+    left: 80px;
+    font-size: 160%;
+    letter-spacing: 3px;
+} 
+.cbox{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background-color: #e5e5e5;
+    top: 150px;
+    left: 450px;
+    border-radius: 100px;
+}
+
+.partc,.parto{
+    width: 100%;
+    color: black;
+    min-height: 100vh;
+}
+.partc{
+    width: 40%;
+    float: left;
+    background: #96B2F0;
+}
+.parto{
+    width: 60%;
+    float: right;
+    background: #fff;
+}
+
+.loc{
+    position: relative;
+    bottom: 200px;
+    left: 550px;
+    width: 50px;
+    height: 50px;
+}
+.address{
+    position: relative;
+    bottom: 255px;
+    left: 620px;
+    font-size: 150%;
+}
+.tele{
+    position: relative;
+    bottom: 200px;
+    left: 535px;
+    width: 80px;
+    height: 70px;
+}
+.telec{
+    position: relative;
+    bottom: 250px;
+    left: 620px;
+    font-size: 150%;
+}
+.emailcon{
+    position: relative;
+    bottom: 170px;
+    left: 550px;
+    width: 50px;
+    height: 50px;
+}
+.emailc{
+    position: relative;
+    bottom: 210px;
+    left: 620px;
+    font-size: 150%;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+.shifting_bgimg{
+    width: 700px;
+    padding-top: 150px;
+}
+.company_shift{
+    width: 800px;
+    position: relative;
+    top: 1250px;
+    right: 100px;    
+}
+.shift_head1{
+    position: relative;
+    bottom: 400px;
+    padding-left: 900px;
+    letter-spacing: 4px;
+    font-size: 60px;
+    color: rgb(82, 84, 85);
+}
+.shift_head2{
+    position: relative;
+    bottom: 500px;
+    padding-left: 660px;
+    background-color: red;
+    color: white;
+    height: 28px;
+    font-size: 25px;
+}
+.shift_head3{
+    font-size: 70px;
+    color: black;
+    text-shadow: 2px 2px rgb(156, 153, 153);
+}
+.shift_head4{
+    position: relative;
+    bottom: 360px;
+    font-size: 25px;
+    padding-left: 850px;
+    letter-spacing: 2px;
+    color: rgb(7, 11, 88);
+}
+.startsat_shift{
+    font-size: 270%;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 330px;
+    left: 920px;
+}
+.enq_now_shift{
+    position: relative;
+    bottom: 300px;
+    left: 850px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+    transition: 0.3s;
+}
+.enq_now_shift:hover {
+    background-color: #438BFF;
+    color: white;
+    box-shadow: 2px 2px rgb(171, 169, 169);
+}
+.book_now_shift:hover{
+    background-color: #438BFF;
+    color: white;
+    box-shadow: 2px 2px rgb(171, 169, 169);
+}
+.book_now_shift{
+    position: relative;
+    bottom: 300px;
+    left: 900px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+    transition: 0.3s;
+}
+.feedbacks_shift{
+    position: relative;
+    bottom: 300px;
+    left: 950px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+    transition: 0.3s;
+}
+.shiftlines{
+    position: relative;
+    top: 220px;
+}
+.shift_head5{
+    position: relative;
+    bottom: 520px;
+    padding-left: 150px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.shift_head6{
+    position: relative;
+    bottom: 500px;
+    padding-left: 150px;
+    font-size: 55px;
+    letter-spacing: 3px;
+    color: rgb(123, 13, 13);
+    font-weight: bold;
+}
+.shift_head7{
+    position: relative;
+    bottom: 480px;
+    padding-left: 150px;
+    font-size: 25px;
+    color: rgb(84, 83, 83);
+}
+.transport{
+    position: relative;
+    bottom: 450px;
+    left: 250px;
+}
+.warehouse{
+    position: relative;
+    bottom: 120px;
+    left: 100px;
+}
+.shift_head8{
+    position: relative;
+    bottom: 440px;
+    font-size: 20px;
+    padding-left: 250px;
+}
+.shift2{
+    font-size: 25px;
+}
+.shift_head9{
+    padding-left: 250px;
+    position: relative;
+    bottom: 250px;
+    font-size: 20px;
+}

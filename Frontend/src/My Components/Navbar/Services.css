@@ -1,0 +1,55 @@
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    justify-items: center; 
+    align-items: center; 
+    margin-top: 120px;
+}
+
+.service-item {
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+}
+
+.service-item img {
+    width: 300px; /* Adjust icon size */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btn23 {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn23:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+}

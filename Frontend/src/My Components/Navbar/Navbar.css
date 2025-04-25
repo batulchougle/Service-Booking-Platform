@@ -1,0 +1,171 @@
+nav{
+    width: 100%;
+    background: #fff;
+    color: #000;
+    padding: 4px 0;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.logo{
+    width: 80px;
+    height: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 0px;
+    font-size: 20px;
+}
+.btn{
+    background: none;
+    padding: 14px 25px;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+    bottom: -10px;
+    font-size: 15px;
+    border: 0;
+    outline: 0; 
+}
+
+
+
+.search-container{
+    left: -20px;
+    margin-top: 3;
+    margin-left: 10;
+    padding-left: 15;
+    position: relative;
+    left: 20px;
+  }
+  .search-container input{
+    width: 300px;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 2px 5px #000;
+  }
+
+  .search-container .sicon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Search results dropdown */
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    z-index: 100;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-results li {
+    padding: 10px;
+    cursor: pointer;
+  
+}
+
+.search-results li:hover {
+    background: #f1f1f1;
+}
+
+/* No results message */
+.search-results li:first-child {
+    font-style: italic;
+    color: gray;
+}
+  .sicon{
+    mix-blend-mode: multiply;
+    background-color: none;
+    background: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: -30px;
+    bottom: -4px;
+    cursor: pointer;
+  } 
+  .picon{
+    width: 40px;
+    height: 35px;
+    position: relative;
+    left: 38px;
+    bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .hicon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    right: -210px;
+    bottom: 5px;
+    cursor: pointer;
+  }
+.cicon{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  bottom: 5px;
+  left: 220px;
+  cursor: pointer;
+}
+.seicon{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  left: 220px;
+  bottom: 5px;
+}
+
+.profile-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgb(241, 233, 233);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  min-width: 100px;
+  z-index: 10;
+  transform: translateX(155px)
+}
+
+.dropdown-item {
+  display: block;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #f0f0f0;
+}

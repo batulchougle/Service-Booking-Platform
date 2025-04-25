@@ -1,0 +1,268 @@
+body{
+    font-family: serif;
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+}
+.hhead{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    font-size: 180%;
+    letter-spacing: 3px;
+}
+.hpara{
+    position: relative;
+    top: 130px;
+    left: 80px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.hpara1{
+    position: relative;
+    top: 140px;
+    left: 80px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.hpara2{
+    position: relative;
+    top: 160px;
+    left: 80px;
+    font-size: 25px;
+}
+.bgimg{
+    position: relative;
+    left: 300px;
+    top: 50px;
+    width: 1000px;
+    height: 1000px;
+    opacity: 55%;
+}
+.aboutus{
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.hpara3{
+    position: relative;
+    left: 80px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.whyus{
+    position: relative;
+    top: 30px;
+    left: 80px;
+    font-size: 35px;
+}
+.booking{
+    position: relative;
+    left: 200px;
+    top: 60px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.platform{
+    position: relative;
+    left: 240px;
+    top: 60px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.facil{
+    position: relative;
+    left: 280px;
+    top: 60px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.prof{
+    position: relative;
+    left: 320px;
+    top: 60px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.halt{
+    position: relative;
+    left: 180px;
+    top: 60px;
+}
+.halt1{
+    position: relative;
+    left: 500px;
+    top: 25px;
+}
+.halt2{
+    position: relative;
+    left: 750px;
+    bottom: 8px;
+}
+.halt3{
+    position: relative;
+    right: -1080px;
+    bottom: 63px;
+}
+.sols{
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.ecof{
+    position: relative;
+    left: 240px;
+    bottom: 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.halt4{
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+}
+.halt5{
+    position: relative;
+    left: 500px;
+    bottom: 113px;
+}
+
+.whoser{
+    position: relative;
+    bottom: 60px;
+    left: 80px;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.cust{
+    position: relative;
+    left: 200px;
+    bottom: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.complex{
+    position: relative;
+    left: 240px;
+    bottom: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.housing{
+    position: relative;
+    left: 280px;
+    bottom: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.hospital{
+    position: relative;
+    left: 320px;
+    bottom: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.halt6{
+    position: relative;
+    left: 245px;
+}
+.halt7{
+    position: relative;
+    left: 535px;
+    bottom: 20px;
+}
+.halt8{
+    position: relative;
+    left: 845px;
+    bottom: 40px; 
+}
+.halt9{
+    position: relative;
+    left: 1170px;
+    bottom: 55px; 
+}
+.inst{
+    position: relative;
+    left: 200px;
+    bottom: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.mall{
+    position: relative;
+    left: 240px;
+    bottom: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    border: 2px solid #000;
+}
+.halt10{
+    position: relative;
+    left: 290px;
+}
+.halt11{
+    position: relative;
+    left: 590px;
+    bottom: 20px;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  
+  .auth-buttons {
+    position: absolute;
+    top: 20%;
+    display: flex;
+    gap: 20px;
+    z-index: 2;
+    left: 5%;
+  }
+  
+  .auth-btn {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .auth-btn:hover {
+    background-color: #0c70d4;
+    transform: translateY(-2px);
+  }

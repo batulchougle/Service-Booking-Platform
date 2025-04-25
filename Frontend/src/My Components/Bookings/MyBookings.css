@@ -1,0 +1,187 @@
+.mbody {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.MyBookings {
+    font-size: 50px;
+    padding-top: 120px;
+    letter-spacing: 2px;
+}
+
+.mhrline1 {
+    width: 500px;
+    height: 3px;
+    border: 1.8px solid rgb(0, 0, 0);
+    margin: 20px auto;
+}
+
+/* Ensures bookings are dynamically added below */
+.mcontainer {
+    display: flex;
+    flex-direction: column; /* Keeps new bookings appearing below */
+    align-items: center;
+    gap: 20px; /* Reduces space between bookings */
+    margin-top: 40px;
+    min-height: 400px; /* Prevents layout shifts when loading */
+    width: 100%;
+}
+
+/* Booking Box Styling */
+.mbox {
+    width: 500px;
+    min-height: 230px; /* Allows flexible height for dynamic content */
+    border: 2px solid rgb(163, 156, 156);
+    border-radius: 20px;
+    background-color: rgb(225, 222, 222);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Hover Effect */
+.mbox:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgb(24, 23, 23);
+}
+
+/* Booking Details */
+.ser_name1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.mcom_no, .mstatus, .mdate,.mfeedback, .mworker{
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.mreceipt{
+    font-size: 18px;
+margin-top: 5px;
+text-align: left;
+padding-left: 20px;
+}
+
+.receipt-icon {
+    width: 30px;
+    height: 30px;
+    margin-top:5px;
+    cursor: pointer;
+    margin-top: 15px;
+    
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+.fed_btn{
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    border: hidden;
+    background-color: rgb(99,46,244);
+    position: relative;
+    bottom:-5px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.fed_btn:hover{
+    color: white;
+    box-shadow: 2px 2px rgb(171,169,169);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

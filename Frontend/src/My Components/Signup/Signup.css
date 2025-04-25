@@ -1,0 +1,120 @@
+.part12,.part21{
+    width: 100%;
+    color: black;
+    min-height: 100vh;
+}
+.part12{
+    width: 50%;
+    float: left;
+    background: #96B2F0;
+}
+.part21{
+    width: 50%;
+    float: right;
+    background: #fff;
+}
+.head3{
+    position: relative;
+    color: black;
+    top: 200px;
+    left: 300px;
+    letter-spacing: 5px;
+    font-size: 150%;
+}
+.head4{
+    position: relative;
+    color: black;
+    top: 210px;
+    left: 300px;
+    letter-spacing: 2px;
+    font-size: 90%;
+}
+/* email*/
+.form-group3{
+    position: relative;
+    top: 300px;
+    right: -160px;
+}
+/*first name*/
+.form-group4{
+    position: relative;
+    top: 180px;
+    right: -165px;
+}
+/*last name*/
+.form-group5{
+    position: relative;
+    top: 130px;
+    right: -405px;
+}
+/* password*/
+.form-group6{
+    position: relative;
+    top: 220px;
+    right: -160px;
+}
+/* confirm password*/
+.form-group7{
+    position: relative;
+    top: 240px;
+    right: -160px;
+}
+/*first name*/
+input[type=text1]{
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: hidden;
+}
+/*last name*/
+input[type=text2]{
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: hidden;
+}
+input[type=text]{
+    height: 50px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: hidden;
+}
+input[type=password]{
+    height: 50px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: hidden;
+}
+.submit_btn1{
+    position: relative;
+    top: 260px;
+    left: 160px;
+    background-color: #3329f9;
+    border-radius: 25px;
+    border-style: hidden;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+.head5{
+    position: relative;
+    top: 260px;
+    left: 270px;
+    font-size: 180%;
+    letter-spacing: 5px;
+}
+.head6{
+    position: relative;
+    top: 260px;
+    left: 280px;
+    letter-spacing: 1px;
+    font-size: 80%;
+}
+.blue1{
+    color: blue;
+}
+

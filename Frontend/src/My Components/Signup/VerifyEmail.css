@@ -1,0 +1,92 @@
+.wrap1{
+    background-color: #96B2F0;
+    height: 100vh;
+    width: 100%;
+}
+.email-icon{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: -45px;
+    left: 725px;
+}
+.box1{
+    background-color: #BABEC9;
+    width: 700px;
+    height: 150px;
+    position: relative;
+    left: 420px;
+    top: 100px;
+}
+.vhead{
+    letter-spacing: 2px;
+    position: relative;
+    top: 90px;
+    left: 200px;
+}
+.box2{
+    background-color: #fff;
+    width: 700px;
+    height: 450px;
+    position: relative;
+    left: 420px;
+    top: 25px;
+}
+.vhead2{
+    letter-spacing: 1px;
+    font-weight: 100;
+    position: relative;
+    top: 5px;
+    left: 190px;
+}
+.email_fetch{
+    position: relative;
+    left: 150px;
+    top: 3px;
+}
+.para1{
+    letter-spacing: 1px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.para2{
+    letter-spacing: 1px;
+    position: relative;
+    left: 225px;
+    top: 30px;
+}
+input[type=number]{
+    width: 300px;
+    height: 50px;
+    border-radius: 6px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    padding-left: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.verify_btn{
+    position: relative;
+    top: 160px;
+    left: 150px;
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #00A1FF;
+    border-style: hidden;
+}
+.vhead3{
+    position: relative;
+    top: 170px;
+    left: 160px;
+}
+.vhead4{
+    position: relative;
+    top: 152px;
+    left: 400px;
+}

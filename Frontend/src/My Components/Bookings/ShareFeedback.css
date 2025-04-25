@@ -1,0 +1,84 @@
+.bodyf1{
+    min-height: 100vh;
+}
+.wrapf1{
+    width: 100%;
+}
+.wrapf2{
+    width: 500px;
+    height: 550px;
+    background-color: #cfcfd1;
+    margin-left: 800px;
+    margin-top: 100px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.wrapf3{
+    width: 300px;
+    height: 400px;
+    margin-left: 500px;
+    position: absolute;
+    bottom: 250px;
+    left: -500px;
+}
+
+.feedbackimg{
+    width: 700px;
+    height: 550px;
+}
+
+.cleaningservices_feed{
+    padding-top: 90px;
+    padding-left:835px ;
+    font-size: 300%;
+    letter-spacing: 2px;
+}
+.feedback-form{
+    padding-top: 20px;
+    padding-left: 840px;
+    font-size: 230%;
+    letter-spacing: 2px;
+    position: relative;
+    top: -530px;
+}
+.feed_2{
+    position: relative;
+    left: 860px;
+    font-size: 20px;
+    top: -500px;
+    letter-spacing: 2px;
+}
+.feed12{
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+    border: hidden;
+    position: relative;
+    top: 220px;
+    left: 50px;
+}
+input[type=textf]{
+    padding-left: 20px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding-bottom: 100px;
+}
+.btnfeed{
+    position: relative;
+    top: 270px;
+    left: 120px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: #438BFF;
+    border: hidden;
+    height: 35px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.btnfeed:hover{
+    color: white;
+    box-shadow: 2px 2px rgb(171,169,169);
+}

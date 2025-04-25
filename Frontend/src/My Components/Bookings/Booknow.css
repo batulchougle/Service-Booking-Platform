@@ -1,0 +1,295 @@
+.bobody{
+    min-height: 100vh;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 2px;
+}
+.BookNow{
+    font-size: 45px;
+    padding-top: 150px;
+    padding-left: 550px;
+    letter-spacing: 2px;
+}
+
+/*City label*/
+.form_groupb2{
+    padding-left: 560px;
+    position: relative;
+    top: 90px;
+}
+.label2{
+    display: flex;
+    flex-direction: column;
+    bottom: 40px;
+    font-size: 20px;
+}
+.dropbox1{
+    width: 400px;
+    height: 50px;
+    font-size: 15px;
+    border: hidden;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    background-color:rgb(220,217,217)
+} 
+/*datetime local picker*/
+.form_groupb4{
+    padding-left: 560px;
+    position: relative;
+    top: 50px;
+}
+.label4{
+    display: flex;
+    flex-direction: column;
+    bottom: 10px;
+    font-size: 20px;
+}
+.date-picker{
+    width: 400px;
+    height: 40px;
+    border:hidden;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    background-color:rgb(220,217,217)
+}
+/*Phone number*/
+.form_groupb5{
+    padding-left: 0px;
+    position: relative;
+    top: 51px;
+}
+.label5{
+    display: flex;
+    flex-direction: column;
+    bottom: 10px;
+    font-size: 20px;
+}
+.phone-book{
+    width: 400px;
+    height: 40px;
+    border: hidden;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    background-color:rgb(220,217,217)
+}
+
+.submit_pay{
+    padding-left: 560px;
+    position: relative;
+    top: 150px;
+}
+.pay_now{
+    width: 250px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    cursor: pointer;
+    border: hidden;
+    letter-spacing: 2px;
+    background-color: rgb(46, 46, 241);
+}
+/*Address */
+.form_groupb7{
+    padding-left: 0px;
+    position: relative;
+    top: 88px;
+}
+.label7{
+    display: flex;
+    flex-direction: column;
+    bottom: 10px;
+    font-size: 20px;
+}
+.add-book{
+    width: 400px;
+    height: 50px;
+    border: hidden;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    background-color:rgb(220,217,217)
+}
+.rowm12{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.rowm22{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.wrapb1{
+    width: 500px;
+    height: 500px;
+    position:absolute;
+    bottom: 200px;
+}
+.booking_img1{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

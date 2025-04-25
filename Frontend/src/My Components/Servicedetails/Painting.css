@@ -1,0 +1,155 @@
+.paintinghead{
+    position: relative;
+    top: 100px;
+    padding-left: 700px;
+    font-size: 60px;
+    color: rgb(234, 35, 35);
+    letter-spacing: 2px;
+ }
+ .pain_img{
+    position: relative;
+    bottom: 100px;
+    opacity: 80%;
+    width: 800px;
+    border-radius: 50%;
+    padding-left: 70px;
+ }
+ .paint_info{
+    position: relative;
+    left: 800px;
+    top: 180px;
+    font-size: 30px;
+    letter-spacing: 2px;
+ }
+ .startsat_paint{
+    position: relative;
+    bottom: 460px;
+    left: 920px;
+    font-size: 270%;
+    letter-spacing: 2px;
+ }
+ .enq_now_paint{
+    position: relative;
+    bottom: 400px;
+    left: 850px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+ }
+ .book_now_paint{
+    position: relative;
+    bottom: 400px;
+    left: 900px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+ }
+ .feedbacks_paint{
+    position: relative;
+    bottom: 400px;
+    left: 950px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+ }
+ .paintinglines{
+    position: relative;
+    top: 300px;
+ }
+ .safensec{
+    position: relative;
+    bottom: 430px;
+    left: 230px;
+    font-size: 40px;
+ }
+ .renovate{
+    position: relative;
+    bottom: 420px;
+    left: 510px;
+    font-size: 25px;
+ }
+ .paintcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 10px;
+    padding-left: 140px;
+    position: relative;
+    bottom: 350px;
+ }
+ .paintbox{
+    width: 400px;
+    height: 550px;
+    border: 2px solid rgb(163, 156, 156);
+    border-radius: 20px;
+    background-color: rgb(225, 222, 222);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+ }
+ .paintbox:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 4px 10px rgb(24, 23, 23);
+}  
+ .inpaint{
+    width: 395px;
+    border-radius: 20px;
+ }
+ .expaint{
+    width: 399px;
+    border-radius: 20px;
+    position: relative;
+    right: 1px;
+ }
+ .walltext{
+    width: 398px;
+    height: 270px;
+    border-radius: 20px;
+ }
+ .paintcontainer2{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 10px;
+    padding-left: 140px;
+    position: relative;
+    bottom: 280px;
+ }
+ .woodpaint{
+    width: 397px;
+    height: 270px;
+    border-radius: 20px;
+ }
+ .metalpaint{
+    width: 397px;
+    height: 270px;
+    border-radius: 20px;
+ }
+ .waterproof{
+    width: 397px;
+    height: 270px;
+    border-radius: 20px;
+ }
+ .type_head{
+    position: relative;
+    top: 10px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+ }
+ .paintlist1{
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    padding-left: 20px;
+ }

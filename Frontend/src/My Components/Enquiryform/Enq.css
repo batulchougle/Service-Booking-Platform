@@ -1,0 +1,87 @@
+.body1{
+    min-height: 100vh;
+    background-color: #96B2F0
+}
+.wrape1{
+    width: 100%;
+    background-color: #96B2F0;
+}
+.cleaningservices{
+    padding-top: 90px;
+    padding-left:575px ;
+    font-size: 300%;
+    letter-spacing: 2px;
+}
+.enqu-form{
+    padding-top: 20px;
+    padding-left: 655px;
+    font-size: 230%;
+    letter-spacing: 2px;
+}
+.wrape2{
+    width: 800px;
+    height: 450px;
+    background-color: #fff;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+.eheading{
+    padding-top: 15px;
+    padding-left: 220px;
+}
+.form-group-e{
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 150%;
+}
+input[type=texte1]{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    left: 100px;
+    top: 0px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.form-group-e2{
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 150%;
+}
+input[type=numbere1]{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    left: 98px;
+    top: 0px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.form-group-e3{
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: 150%;
+}
+input[type=texte2]{
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 102px;
+    top: 0px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.btne2{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #438BFF;
+    border: hidden;
+    margin-left: 40px;
+    position: relative;
+    left: 395px;
+    top: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}

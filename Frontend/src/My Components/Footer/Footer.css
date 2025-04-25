@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: serif;
+}
+
+footer {
+    background-color: #7295AA;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;  
+    margin: 0 auto;
+}
+
+.contact {
+    position: relative;
+    right: 100px;
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+.quick-links {
+    position: relative;
+    right: 50px;
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+.social-media{
+    position: relative;
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+.fcontact{
+    margin-bottom: -20px;
+    font-size: 200%;
+    position: relative;
+    bottom: 40px;
+}
+.flink{
+    margin-bottom: 10px;
+    font-size: 200%;
+    position: relative;
+    left: 60px;
+}
+.fsocial{
+    margin-bottom: 10px;
+    font-size: 200%;
+    position: relative;
+    bottom: 30px;
+    left: 110px;
+}
+.faddress{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.flinks{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    position: relative;
+    left: 60px;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.facebook{
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    width: 30px;
+    height: 30px;
+}
+.twitter{
+    position: relative;
+    bottom: 23px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+}
+.instagram{
+    position: relative;
+    bottom: 22px;
+    left: 120px;
+    width: 40px;
+    height: 40px;
+}
+.linkdin{
+    position: relative;
+    bottom: 25px;
+    left: 140px;
+    width: 35px;
+    height: 35px;
+}
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}

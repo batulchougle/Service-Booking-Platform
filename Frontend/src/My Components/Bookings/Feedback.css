@@ -1,0 +1,67 @@
+.overallpage{
+    min-height: 100vh;
+    transform: translateY(-100px);
+    animation: jumpIn 3s ease-out forwards;
+}
+
+@keyframes jumpIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+    70% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.fed_title{
+    padding-top: 100px;
+    font-size: 30px;
+    padding-left: 560px;
+}
+.fed_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: flex-start; 
+    position: relative;
+}
+.fed_boxes{
+    width: 550px;
+    height: 180px;
+    background-color: rgb(235, 236, 237);
+    position: relative;
+    top: 80px;
+    transition: ease-in-out;
+    left: 180px;
+    margin-bottom: 60px;
+}
+
+.fed_boxes:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.prof_icon{
+    width: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.user_names_fed{
+    font-size: 20px;
+    position: relative;
+    bottom: 90px;
+    padding-left: 120px;
+}
+.reviews_fed{
+    font-size: 22px;
+    padding-left: 30px;
+    position: relative;
+    bottom: 40px;
+}

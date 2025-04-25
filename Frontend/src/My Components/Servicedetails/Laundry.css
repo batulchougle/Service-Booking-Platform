@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+body, html {
+    overflow-x: hidden;
+    overflow-wrap: anywhere;
+    width: 100%;
+    min-height: 100vh;
+}
+.lau_bgimg{
+    padding-left: 650px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 1400px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rel{
+    position: relative;
+    bottom: 830px;
+    left: 150px;
+    font-size: 50px;
+    color: #0467A1;
+}
+.rig{
+    position: relative;
+    bottom: 830px;
+    left: 220px;
+    font-size: 45px;
+    color: #0D006C;
+}
+.partl1{
+    background-color: rgb(226, 224, 224);
+    position: relative;
+    bottom: 680px;
+    left: 110px;
+    width: 630px;
+    height: 200px;
+    border-radius: 50%;
+}
+.infol1{
+    position: relative;
+    bottom: 730px;
+    left: 150px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.enqnow_lau{
+    position: relative;
+    bottom: 570px;
+    left: 140px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+}
+.booknow_lau{
+    position: relative;
+    bottom: 570px;
+    left: 200px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+}
+.list_lau{
+    position: relative;
+    bottom: 650px;
+    left: 160px;
+    font-size: 18px;
+    margin: 0px;
+}
+.mode{
+    position: relative;
+    bottom: 20px;
+    left: 240px;
+}
+.fit{
+    position: relative;
+    bottom: 20px;
+    left: 240px;
+}
+.startsat_lau{
+    position: relative;
+    bottom: 610px;
+    left: 160px;
+    font-size: 35px;
+}
+.lau_inc{
+    position: relative;
+    padding-bottom: 0px;
+    bottom: 750px;
+    padding-left: 530px;
+    font-size: 40px;
+}
+.lau_img{
+    position: relative;
+    padding-bottom: 0px;
+}
+
+.lhor_line{
+    position: relative;
+    bottom: 450px;
+    height: 2px;
+    border: hidden;
+    background-color: black;
+}
+.lhor_line2{
+    position: relative;
+    bottom: 240px;
+    height: 2px;
+    border: hidden;
+    background-color: black;
+}
+.lca{
+    position: relative;
+    bottom: 380px;
+    left: 130px;
+}
+.lcl{
+    position: relative;
+    bottom: 550px;
+    left: 580px;
+}
+.llo{
+    position: relative;
+    bottom: 750px;
+    left: 1000px;
+}
+.lhaveaque{
+    position: relative;
+    bottom: 460px;
+    left: 240px;
+    font-size: 20px;
+}
+.lno{
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
+.ltime{
+    position: relative;
+    bottom: 638px;
+    left: 690px;
+    font-size: 20px;
+}
+.lti{
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
+.lloc_add{
+    position: relative;
+    bottom: 865px;
+    left: 1120px;
+    font-size: 20px;
+}
+.lad1{
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
+.lau_wash{
+    width: 700px;
+    height: 700px;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 800px;
+}
+.wmachine{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 680px;
+    margin-left: 560px;
+}
+.wnd{
+    font-size: 20px;
+    position: relative;
+    bottom: 650px;
+    padding-left: 510px;
+}
+.wandr{
+    position: relative;
+    bottom: 5px;
+    font-size: 25px;
+}
+.iron{
+    width: 90px;
+    height: 65px;
+    position: relative;
+    bottom: 840px;
+    margin-left: 950px;
+}
+.inf{
+    position: relative;
+    bottom: 790px;
+    padding-left: 900px;
+    font-size: 20px;
+}
+.irnfo{
+    position: relative;
+    bottom: 5px;
+    font-size: 25px;
+}
+.hanger_clo{
+    position: relative;
+    bottom: 640px;
+    left: 560px;
+    width: 90px;
+    height: 100px;
+}
+.pnd{
+    position: relative;
+    bottom: 600px;
+    left: 500px;
+    font-size: 20px;
+}
+.pinde{
+    position: relative;
+    bottom: 5px;
+    font-size: 25px;
+}
+.fold_clo{
+    position: relative;
+    bottom: 800px;
+    left: 945px;
+    width: 100px;
+}
+.c_lau{
+    position: relative;
+    font-size: 20px;
+    left: 890px;
+    bottom: 780px;
+}
+.com_lau{
+    position: relative;
+    font-size: 25px;
+    bottom: 5px;
+}
+.yel_1{
+    width: 250px;
+    position: relative;
+    left: 490px;
+    bottom: 1100px;
+    background-color: rgb(165, 165, 7);
+    height: 3px;
+    border: none;
+}
+.yel_2{
+
+    width: 250px;
+    position: relative;
+    left: 870px;
+    bottom: 1103px;
+    background-color: rgb(165, 165, 7);
+    height: 2px;
+    border: none;
+}
+.hithere{
+    font-size: 40px;
+    position: relative;
+    bottom: 700px;
+    padding-left: 140px;
+}
+
+.line2{
+    font-size: 40px;
+    position: relative;
+    bottom: 650px;
+    padding-left: 160px;
+}
+.line3{
+    font-size: 40px;
+    position: relative;
+    bottom: 600px;
+    padding-left: 190px;
+}
+.delman{
+    position: relative;
+    height: 250px;
+    width: 300px;
+    bottom: 200px;
+}
+.last_img{
+    position: relative;
+    height: 250px;
+    width: 300px;
+    bottom: 200px;
+}
+.proc2{
+    position: relative;
+    height: 250px;
+    width: 300px;
+    bottom: 200px;
+}
+.detergent{
+    position: relative;
+    bottom: 200px;
+}
+.drying{
+    position: relative;
+    bottom: 200px;
+}
+.line4{
+    position: relative;
+    font-size: 30px;
+    bottom: 500px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+}
+.spec{
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.line5{
+    position: relative;
+    top: 40px;
+}
+.line6{
+    position: relative;
+    top: 80px;
+}
+.line7{
+    position: relative;
+    top: 120px;
+}
+.line8{
+    position: relative;
+    top: 160px;
+}
+.hor_line{
+    position: relative;
+    bottom: 310px;
+    height: 2px;
+    border: hidden;
+    background-color: black;
+}
+.hor_line2{
+    position: relative;
+    bottom: 60px;
+    height: 2px;
+    border: hidden;
+    background-color: black;
+}
+
+.ca{
+    position: relative;
+    bottom: 230px;
+    left: 130px;
+}
+.cl{
+    position: relative;
+    bottom: 400px;
+    left: 580px;
+}
+.lo{
+    position: relative;
+    bottom: 605px;
+    left: 1000px;
+}
+
+.haveaque{
+    position: relative;
+    bottom: 310px;
+    left: 240px;
+    font-size: 20px;
+}
+.no{
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
+.time{
+    position: relative;
+    bottom: 487px;
+    left: 690px;
+    font-size: 20px;
+}
+.ti{
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
+.loc_add{
+    position: relative;
+    bottom: 715px;
+    left: 1120px;
+    font-size: 20px;
+}
+
+.feedbacks_lau{
+    position: relative;
+    bottom: 570px;
+    left:260px;
+    width: 140px;
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #438BFF;
+    cursor: pointer;
+    font-size:16px;
+}
+
