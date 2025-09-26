@@ -1,6 +1,6 @@
 A full-stack service booking and complaint management system built with Django REST Framework (backend) and React.js (frontend). The platform enables individuals, housing societies, hospitals, institutions, malls, and commercial complexes to easily book services, make payments, and track complaints.
 
-**FEATURES:**
+# FEATURES:
 
 🔑 User Authentication – JWT-based authentication for customer login & signup.
 📝 Service Booking – Customers can book services with date & time selection.
@@ -13,7 +13,7 @@ Service provider (via Django Admin) sets the final amount → customer makes pay
 📊 Dashboard – Customers can track their bookings, complaints, and payments.
  Admin Management — Service providers use Django’s built-in admin (superuser) to manage bookings, complaints, and payments  
 
-**USAGE FLOW:**
+# USAGE FLOW:
 
 1. Customer registers & logs in.
 2. Customer selects date and time and books a service (₹50 booking charge) and complaint number is generated.
@@ -23,7 +23,7 @@ Service provider (via Django Admin) sets the final amount → customer makes pay
 6. Service provider issues receipt manually after payment.
 7. Customer submits feedback.
 
-**TECH STACK:**
+# TECH STACK:
 
 Backend: Python, Django, Django REST Framework
 Database: SQLite (default) 
@@ -32,37 +32,38 @@ Payment Gateway: Razorpay API integration
 Frontend: React.js, Axios (for API calls)
 Version Control: Git, GitHub 
 
-**INSTALLATION & SETUP:**
+# INSTALLATION & SETUP:
 
 **Backend Setup (Django + DRF**):
-# Clone repo
+
+#Clone repo
 git clone https://github.com/batulchougle/Service-Booking-Platform.git
 cd Service-Booking-Platform
 
-# Create virtual env
+#Create Virtual Environment
 python -m venv venv
 source venv/bin/activate        # Linux / macOS
 venv\Scripts\activate           # Windows
 
-# Install dependencies
+#Install Dependencies
 pip install -r requirements.txt
 
-# Apply migrations
+#Apply Migrations
 python manage.py migrate
 
-# Create superuser (for service provider / admin access)
+#Create superuser (for service provider / admin access)
 python manage.py createsuperuser
 
-# Start backend server
+#Start backend server
 python manage.py runserver
 
 **Frontend (React)**
 cd frontend
 
-# Install dependencies
+#Install dependencies
 npm install
 
-# Start development server
+#Start development server
 npm start
 
 
