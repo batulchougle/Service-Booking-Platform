@@ -1,16 +1,15 @@
 A full-stack service booking and complaint management system built with Django REST Framework (backend) and React.js (frontend). The platform enables individuals, housing societies, hospitals, institutions, malls, and commercial complexes to easily book services, make payments, and track complaints.
 
 # FEATURES:
-
-🔑 User Authentication – JWT-based authentication for customer login & signup.
-📝 Service Booking – Customers can book services with date & time selection.
-💳 Payments –
+ User Authentication – JWT-based authentication for customer login & signup.
+ Service Booking – Customers can book services with date & time selection.
+Payments –
 ₹50 booking charge on confirmation.
 Option for Online Payment (via Razorpay) or Cash on Delivery (COD) after service completion.
 Service provider (via Django Admin) sets the final amount → customer makes payment → receipt issued manually.
-🛠️ Complaint Management – Complaint number generation & real-time status updates (managed by service provider through Django Admin).
-⭐ Feedback System – Customers can submit feedback and ratings after service completion.
-📊 Dashboard – Customers can track their bookings, complaints, and payments.
+Complaint Management – Complaint number generation & real-time status updates (managed by service provider through Django Admin).
+Feedback System – Customers can submit feedback and ratings after service completion.
+Dashboard – Customers can track their bookings, complaints, and payments.
  Admin Management — Service providers use Django’s built-in admin (superuser) to manage bookings, complaints, and payments  
 
 # USAGE FLOW:
