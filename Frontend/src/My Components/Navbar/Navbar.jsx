@@ -3,7 +3,7 @@ import './Navbar.css'
 import { useLocation, useNavigate } from 'react-router-dom'
 import AxiosInstance from '../../api/axiosInstance'
 import { toast } from 'react-toastify'
-import axios from 'axios'
+import AxiosInstance from '../../api/axiosInstance'
 
 
 
@@ -21,7 +21,7 @@ const Navbar = () => {
   const [filteredServices, setFilteredServices]=useState([])
   
   useEffect(() => {
-    axios.get("http://127.0.0.1:8000/api/v1/auth/services/")
+    AxiosInstance.get("/auth/services/")
     .then(response => {
       
       setServices(response.data);
