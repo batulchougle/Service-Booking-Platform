@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import './VerifyEmail.css'
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import axios from "axios"
+import AxiosInstance from "../../api/axiosInstance"
 
 
 
@@ -12,7 +12,7 @@ const VerifyEmail = () => {
   const handleOtpSubmit = async(e)=>{
     e.preventDefault()
     if (otp) {
-        const res = await axios.post('http://localhost:8000/api/v1/auth/verify-email/', {'otp':otp})
+        const res = await AxiosInstance.post('/auth/verify-email/', {'otp':otp})
         const resp = res.data
         if (res.status === 200) {
             navigate('/login')
