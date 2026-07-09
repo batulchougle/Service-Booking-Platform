@@ -1,7 +1,7 @@
 
 import React from 'react'
 import './Feedback.css'
-import axios from 'axios'
+import AxiosInstance from '../../api/axiosInstance'
 import { useState,useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
@@ -12,7 +12,7 @@ const Feedbacks = () => {
     const {serviceName}= useParams()
 
     useEffect(() => {
-       axios.get(`http://127.0.0.1:8000/display/feedbacks/?service=${serviceId}`)
+       AxiosInstance.get(`/auth/display/feedbacks/?service=${serviceId}`)
             .then((response) => setFeedbacks(response.data))
             .catch((error) => console.error("Error fetching feedbacks:", error));
     }, [serviceId]);
