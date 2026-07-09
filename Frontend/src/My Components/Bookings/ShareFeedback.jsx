@@ -3,7 +3,7 @@ import './ShareFeedback.css'
 import { useParams } from 'react-router-dom'
 import { useState } from 'react'
 import { toast } from 'react-toastify'
-import axios from 'axios'
+import AxiosInstance from '../../api/axiosInstance'
 
 
 const ShareFeedback = () => {
@@ -35,7 +35,7 @@ const handleSubmit = async (e) => {
     setError("")
     console.log("Authorization Header:", `Bearer ${token}`);
     try {
-      const response = await axios.post('http://localhost:8000/accept/feedback/', formData,
+     const response = await AxiosInstance.post('/auth/accept/feedback/', formData,
         {
           headers: {
               Authorization: `Bearer ${token}`,  
