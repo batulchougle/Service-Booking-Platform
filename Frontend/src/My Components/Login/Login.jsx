@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './Login.css'
 import {useNavigate} from "react-router-dom"
 import { toast } from 'react-toastify'
-import axios from "axios"
+import AxiosInstance from "../../api/axiosInstance"
 
 const Login = () => {
   const navigate=useNavigate()
@@ -25,7 +25,7 @@ const Login = () => {
     e.preventDefault()
     setError("")
     try {
-      const res = await axios.post('http://localhost:8000/api/v1/auth/login/', loginData)
+      const res = await AxiosInstance.post('/auth/login/', loginData)
       const response= res.data
       const user={
         'id':response.id,
