@@ -14,7 +14,7 @@ const Home = () => {
      <p className='hpara1'>And Effortlessly</p>
      <p className='hpara2'>Mumbai | Navi Mumbai | Thane | Pune</p>
      <div className="image-wrapper">
-     <img src='../public/centerimg.png' className='bgimg'/>
+     <img src='/centerimg.png' className='bgimg'/>
         {!storedUser &&(
           <div className="auth-buttons">
             <button className="auth-btn" onClick={() => navigate('/login')}>Login</button>
