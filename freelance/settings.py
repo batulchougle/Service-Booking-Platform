@@ -66,7 +66,7 @@ CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:5173",
     "http://localhost:5174",
-    os.getenv("CSRF_TRUSTED_ORIGINS", "").split(",")
+    *os.getenv("CSRF_TRUSTED_ORIGINS", "").split(",")
 
 ]
 
