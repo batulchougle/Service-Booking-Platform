@@ -2,7 +2,7 @@ import React from 'react'
 import './Booking.css'
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import axios from 'axios'
+import AxiosInstance from '../../api/axiosInstance'
 import { toast } from 'react-toastify'
 
 
@@ -33,8 +33,8 @@ const Booking = () => {
       }   
       
       try {
-        const response =  await axios.post(
-          `http://localhost:8000/select/payment/method/`, 
+            const response =  await AxiosInstance.post(
+                        `/auth/select/payment/method/`, 
           { payment_method: selectedMethod ,booking_id: booking_id},
          { headers: {
             "Authorization": `Bearer ${token}`, 
