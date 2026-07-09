@@ -1,6 +1,6 @@
 import React from 'react'
 import './MyBookings.css'
-import axios from 'axios'
+import AxiosInstance from '../../api/axiosInstance'
 import { useState,useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
@@ -20,7 +20,7 @@ const MyBookings = () => {
     } 
 
     useEffect(() => {
-       axios.get("http://127.0.0.1:8000/user/bookings/",
+       AxiosInstance.get("/auth/user/bookings/",
             {
                 headers: {
                   "Authorization": `Bearer ${token}`, 
@@ -42,7 +42,7 @@ const MyBookings = () => {
       e.preventDefault();
       console.log("Authorization Header:", `Bearer ${token}`)
       try {
-        const response = await axios.post("http://127.0.0.1:8000/service/payment/",{booking_id:booking_id},
+        const response = await AxiosInstance.post("/auth/service/payment/",{booking_id:booking_id},
         {
           headers: {
             "Authorization": `Bearer ${token}`, 
@@ -65,7 +65,7 @@ const MyBookings = () => {
           order_id: order_id, 
           handler: async function (response) {
             
-            const verifyResponse = await axios.post("http://127.0.0.1:8000/verify/payment/", JSON.stringify({
+            const verifyResponse = await AxiosInstance.post("/auth/verify/payment/", JSON.stringify({
               razorpay_order_id: response.razorpay_order_id,
               razorpay_payment_id: response.razorpay_payment_id,
               razorpay_signature: response.razorpay_signature
