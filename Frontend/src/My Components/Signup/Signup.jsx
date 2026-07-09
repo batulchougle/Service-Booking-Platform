@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import axios from "axios"
+import AxiosInstance from "../../api/axiosInstance"
 import './Signup.css'
 import { useNavigate } from "react-router-dom"
 
@@ -25,7 +25,7 @@ const Signup = () => {
     e.preventDefault()
     setError("")
     try {
-      const response = await axios.post('http://localhost:8000/api/v1/auth/signup/', formData)
+      const response = await AxiosInstance.post('/auth/signup/', formData)
       const result =response.data
       if (response.status === 201) {
         navigate("/otp/verify")
