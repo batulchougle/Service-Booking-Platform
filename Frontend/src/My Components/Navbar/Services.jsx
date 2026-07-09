@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import AxiosInstance from "../../api/axiosInstance";
 import './Services.css'
 
 const Services = ()=>{
@@ -9,7 +9,7 @@ const Services = ()=>{
 
 
 useEffect(() => {
-    axios.get("http://127.0.0.1:8000/api/v1/auth/services/")
+    AxiosInstance.get("/auth/services/")
         .then((response) => setServices(response.data))
         .catch((error) => console.error("Error fetching services:", error));
 }, []);
