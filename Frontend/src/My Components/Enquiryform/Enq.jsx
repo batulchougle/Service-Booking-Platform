@@ -1,7 +1,7 @@
 
 import './Enq.css'
 import React, {useState} from 'react'
-import axios from "axios"
+import AxiosInstance from "../../api/axiosInstance"
 import { useParams } from "react-router-dom"
 import { toast } from 'react-toastify'
 
@@ -41,7 +41,7 @@ const handleSubmit = async (e) => {
     e.preventDefault()
     setError("")
     try {
-      const response = await axios.post('http://localhost:8000/api/v1/auth/enquire-now/enquiries/', formData,
+     const response = await AxiosInstance.post('/auth/enquire-now/enquiries/', formData,
         {
           headers: {
               Authorization: `Bearer ${token}`,  
