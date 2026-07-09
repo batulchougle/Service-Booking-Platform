@@ -45,8 +45,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'razorpay',
-    'pkg_resources',
 ]   
 
 MIDDLEWARE = [
