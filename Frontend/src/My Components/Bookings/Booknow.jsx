@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from "react";
 import "./Booknow.css";
 import { useParams } from "react-router-dom";
-import axios from "axios";
+import AxiosInstance from "../../api/axiosInstance";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
@@ -60,7 +60,7 @@ const Booknow = () => {
 
         try {
   
-          const response = await axios.post("http://127.0.0.1:8000/payments/create-order/", payload,
+          const response = await AxiosInstance.post("/auth/payments/create-order/", payload,
           {
             headers: {
               "Authorization": `Bearer ${token}`, 
@@ -81,7 +81,8 @@ const Booknow = () => {
             order_id: order_id, 
             handler: async function (response) {
               
-              const verifyResponse = await axios.post("http://127.0.0.1:8000/payments/verify-payment/", JSON.stringify({
+              
+                  const verifyResponse = await AxiosInstance.post("/auth/payments/verify-payment/", JSON.stringify({
                 razorpay_order_id: response.razorpay_order_id,
                 razorpay_payment_id: response.razorpay_payment_id,
                 razorpay_signature: response.razorpay_signature
