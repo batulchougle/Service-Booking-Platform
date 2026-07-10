@@ -87,40 +87,6 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .part1, .part2, .part12, .part21, .partc, .parto {
-    width: 100% !important;
-    float: none !important;
-  }
-
-  .head, .head1, .head12, .head3, .head4, .head5, .head6,
-  .form-group1, .form-group2, .form-group3, .form-group4,
-  .form-group5, .form-group6, .form-group7,
-  .submit_btn, .submit_btn1, .forpass, .disc,
-  .chead, .cbox, .loc, .address, .tele, .telec, .emailcon, .emailc {
-    position: static !important;
-    left: auto !important;
-    right: auto !important;
-    top: auto !important;
-    bottom: auto !important;
-    margin: 10px auto !important;
-    text-align: center;
-  }
-
-  input[type="text"], input[type="password"] {
-    width: 90% !important;
-    max-width: 350px;
-    box-sizing: border-box;
-  }
-
-  .cbox {
-    width: 90% !important;
-    height: auto !important;
-    border-radius: 20px !important;
-    padding: 20px;
-  }
-}
-
 .service-item {
   background: white;
   padding: 10px;
