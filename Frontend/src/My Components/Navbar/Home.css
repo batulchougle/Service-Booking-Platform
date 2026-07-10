@@ -266,3 +266,28 @@ body{
     background-color: #0c70d4;
     transform: translateY(-2px);
   }
+@media (max-width: 768px) {
+  .hhead {
+    left: 0;
+    top: 20px;
+    font-size: 90%;
+    padding: 0 16px;
+    letter-spacing: 1px;
+  }
+
+  .hpara, .hpara1, .hpara2 {
+    left: 0;
+    top: 20px;
+    font-size: 18px;
+    padding: 0 16px;
+    letter-spacing: normal;
+  }
+
+  .hpara1 { top: 25px; }
+  .hpara2 { top: 30px; }
+
+  .bgimg {
+    width: 100%;
+    height: auto;
+  }
+}
