@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './My Components/Navbar/Navbar'
 import Home from './My Components/Navbar/Home'
@@ -22,11 +22,36 @@ import ShareFeedback from './My Components/Bookings/ShareFeedback'
 
 
 function App() {
+
+  useEffect(() => {
+     const DESIGN_WIDTH = 1280
+
+     const applyScale = () => {
+       const wrapper = document.getElementById('scale-wrapper')
+       if (!wrapper) return
+
+      if (window.innerWidth < 768) {
+        const scale = window.innerWidth / DESIGN_WIDTH
+         wrapper.style.width = `${DESIGN_WIDTH}px`
+        wrapper.style.transform = `scale(${scale})`
+         wrapper.style.transformOrigin = 'top left'
+         document.body.style.height = `${wrapper.offsetHeight * scale}px`
+       } else {
+        wrapper.style.width = ''
+         wrapper.style.transform = ''
+      document.body.style.height = ''
+      }
+     }
+     applyScale()
+     window.addEventListener('resize', applyScale)
+    return () => window.removeEventListener('resize', applyScale)
+  }, [])
   
 
   return (
     
     <div id="page-container">
+      <div id="scale-wrapper">
        <Router>
         <Navbar/>
         
@@ -60,6 +85,7 @@ function App() {
         </div>
          <Footer />
         </Router>
+         </div>
         </div>
       
      
